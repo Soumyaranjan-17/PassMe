@@ -8,6 +8,9 @@ from cryptography.fernet import Fernet
 STORAGE_FILE = "data/passwords.enc"
 SALT_FILE = "data/salt.bin"
 
+# Ensure data folder always exists
+os.makedirs("data", exist_ok=True)
+
 def get_salt() -> bytes:
     """Return existing salt or generate a new one"""
     if not os.path.exists(SALT_FILE):
