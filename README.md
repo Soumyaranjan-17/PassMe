@@ -8,10 +8,15 @@ It can **check password strength, generate strong passwords, and store them secu
 ## 🚀 Features
 
 ✅ **Password Strength Checker** – Test your passwords against best practices.
+
 ✅ **Strong Password Generator** – Create random, secure passwords with custom length.
+
 ✅ **Encrypted Storage** – Save and retrieve passwords, locked with a master password.
+
 ✅ **PBKDF2 + AES Encryption** – Strong security with password-derived key and salt.
+
 ✅ **Cross-Platform** – Runs on Windows, Linux, or macOS.
+
 ✅ **Beginner-Friendly** – Clean Python code with modular structure.
 
 ---
@@ -38,7 +43,7 @@ password_manager/
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/your-username/passme.git
+git clone https://github.com/Soumyaranjan-17/PassMe.git
 cd passme
 ```
 
