@@ -1,0 +1,29 @@
+# 🐍 Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.egg-info/
+dist/
+build/
+
+# 📦 Virtual Environment
+venv/
+ENV/
+env/
+.venv/
+
+# 🔐 Sensitive Data
+data/passwords.enc
+data/salt.bin
+*.key
+
+# 🛠 IDE / Editor Settings
+.vscode/
+.idea/
+*.swp
+
+# 🪟 OS Files
+.DS_Store
+Thumbs.db
